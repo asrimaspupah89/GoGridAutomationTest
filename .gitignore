@@ -1,2 +1,4 @@
 # Driver
+.settings
 src/test/resources/drivers/
+/target/
