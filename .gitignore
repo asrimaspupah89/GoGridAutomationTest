@@ -1,4 +1,6 @@
 # Driver
 .settings
+.project
+.classpath
 src/test/resources/drivers/
 /target/
