@@ -31,7 +31,7 @@ Feature: add event in calendar page
   Scenario Outline: add event with participant in later date
   	Given browser is open
     And user is on calendar page
-    When user click on 1 days later
+    When user click on 3 days later
     And user enters event <title>
     And user add <n> participants
     And user click submit button

@@ -30,5 +30,7 @@ public class MengunduhJurnalFeature {
 	@Then("page show pdf generated notification")
 	public void page_show_pdf_generated_notification() {
 		assertEquals(Driver.getInstance().findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText(), "PDF has been generated");
+		Driver.getInstance().close();
+		Driver.deleteInstance();
 	}
 }
