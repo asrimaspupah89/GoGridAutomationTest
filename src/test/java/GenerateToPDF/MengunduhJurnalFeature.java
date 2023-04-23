@@ -13,7 +13,7 @@ public class MengunduhJurnalFeature {
 	@Given("user is on export page")
 	public void user_is_on_export_page() {
 	    // Write code here that turns the phrase above into concrete actions
-		Driver.getInstance().navigate().to("http://go-grids.site/");
+		Driver.getInstance().navigate().to("http://103.172.204.236:5173/");
 		Driver.getInstance().findElement(By.xpath("//input[@type='text']")).sendKeys("Orion2805");
 		Driver.getInstance().findElement(By.xpath("//input[@type='password']")).sendKeys("Orion12345");
 		Driver.getInstance().findElement(By.xpath("//button[@type='submit']")).click();
