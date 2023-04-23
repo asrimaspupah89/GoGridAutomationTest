@@ -1,3 +1,7 @@
+#Author : Reihan Reinaldi Suryaman
+#Date	: 22/04/2023
+#Description : Testing GoGrids delete event feature
+
 @SmokeScenario
 Feature: Delete Event
   Scenario: Check delete event

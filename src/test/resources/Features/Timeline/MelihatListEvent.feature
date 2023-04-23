@@ -1,3 +1,7 @@
+#Author : Reihan Reinaldi Suryaman
+#Date	: 22/04/2023
+#Description : Testing GoGrids view event feature
+
 @SmokeScenario
 Feature: View event list
   Scenario: Check view event when there is no event
