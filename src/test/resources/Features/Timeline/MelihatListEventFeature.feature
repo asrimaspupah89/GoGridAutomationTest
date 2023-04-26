@@ -3,6 +3,7 @@
 #Description : Testing GoGrids view event feature
 
 @SmokeScenario
+@ReihanScenario
 Feature: View event list
   Scenario: Check view event when there is no event
     Given browser is open

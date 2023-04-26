@@ -1,5 +1,6 @@
 package Timeline;
 
+
 import Driver.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -13,11 +14,15 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class MenghapusEvent {
+//Author : Reihan Reinaldi Suryaman
+//Date	: 22/04/2023
+//Description : Testing GoGrids view event feature
+
+public class MenghapusEventFeature {
     @When("user click on trash icon")
     public void userClickOnTrashIcon() {
         new WebDriverWait(Driver.getInstance(), Duration.ofSeconds(60)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"app\"]/div/div/div/main/div/div/div/div/div/div[2]/h4")));
-        WebElement element = Driver.getInstance().findElement(By.xpath("//*[name()='svg' and @data-v-31904c38]"));
+        WebElement element = Driver.getInstance().findElement(By.xpath("//*[name()='svg' and @data-v-76aa6b74]"));
         element.click();
 
         new WebDriverWait(Driver.getInstance(), Duration.ofSeconds(10)).until(ExpectedConditions.presenceOfElementLocated(By.className("swal2-container")));

@@ -3,6 +3,7 @@
 #Description : Testing GoGrids delete event feature
 
 @SmokeScenario
+@ReihanScenario
 Feature: Delete Event
   Scenario: Check delete event
     Given browser is open

@@ -17,8 +17,8 @@ public class Driver {
 		
 		driver = new ChromeDriver(options);
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 	}
 	
 	public static synchronized WebDriver getInstance() {
